@@ -109,3 +109,13 @@ To fully implement the MCP features:
 ### Linting and Typing Check
 
 There are no lint or type checks implemented.
+
+### Debugging
+
+Run the MCP inspector
+
+```
+mcp dev mcp_server.py
+```
+This starts a development server and gives you a local URL, typically something like http://127.0.0.1:6274. Open this URL in your browser to access the MCP Inspector.
+
